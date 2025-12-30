@@ -4,5 +4,5 @@ on:
 
 jobs:
     orchestrator:
-        uses: gha-sec-scans/orchestrator/blob/feature/architecture/.github/workflows/main.yaml@feature/architecture
+        uses: gha-sec-scans/orchestrator/.github/workflows/main.yaml@feature/architecture
         secrets: inherit
