@@ -1,0 +1,8 @@
+name: Orchestrator call
+on:
+    workflow_dispatch:
+
+jobs:
+    orchestrator:
+        uses: gha-sec-scans/orchestrator/blob/feature/architecture/.github/workflows/main.yaml@feature/architecture
+        secrets: inherit
