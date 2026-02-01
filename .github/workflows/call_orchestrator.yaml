@@ -1,7 +1,10 @@
 name: Orchestrator call
 on:
     workflow_dispatch:
-
+permissions:
+  contents: read         
+  security-events: write
+  actions: read
 jobs:
     orchestrator:
         uses: gha-sec-scans/orchestrator/.github/workflows/main.yaml@feature/setup
