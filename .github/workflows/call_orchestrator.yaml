@@ -9,4 +9,6 @@ permissions:
 jobs:
     orchestrator:
         uses: gha-sec-scans/orchestrator/.github/workflows/main.yaml@feature/predeploy
+        with:
+            app-port: '8080'
         secrets: inherit
