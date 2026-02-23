@@ -5,6 +5,7 @@ permissions:
   contents: read         
   security-events: write
   actions: read
+  packages: write
 jobs:
     orchestrator:
         uses: gha-sec-scans/orchestrator/.github/workflows/main.yaml@feature/predeploy
