@@ -11,4 +11,6 @@ jobs:
         uses: gha-sec-scans/orchestrator/.github/workflows/main.yaml@feature/predeploy
         with:
             app-port: '8080'
+            app-path: '/WebGoat'
         secrets: inherit
+        
