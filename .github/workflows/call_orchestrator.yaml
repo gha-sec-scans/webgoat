@@ -12,6 +12,6 @@ jobs:
         with:
             app-port: '8080'
             app-path: '/WebGoat'
-            defectdojo_product_id: '1'
+            defectdojo_product_name: 'WebGoat-TFG'
         secrets: inherit
         
