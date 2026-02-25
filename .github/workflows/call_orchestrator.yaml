@@ -8,7 +8,7 @@ permissions:
   packages: write
 jobs:
     orchestrator:
-        uses: gha-sec-scans/orchestrator/.github/workflows/main.yaml@feature/defectdojo
+        uses: gha-sec-scans/orchestrator/.github/workflows/main.yaml@feature/refinement
         with:
             app-port: '8080'
             app-path: '/WebGoat'
