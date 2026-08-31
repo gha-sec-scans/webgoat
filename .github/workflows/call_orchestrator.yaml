@@ -13,5 +13,6 @@ jobs:
             app-port: '8080'
             app-path: '/WebGoat'
             defectdojo_product_name: 'WebGoat-TFG'
+            sonar_organization: "gha-sec-scans"
+            sonar_project_key: "gha-sec-scans_webgoat"
         secrets: inherit
-        
